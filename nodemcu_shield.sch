@@ -1,0 +1,474 @@
+EESchema Schematic File Version 4
+LIBS:nodemcu_shield-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x15_Female J2
+U 1 1 5D5DA75C
+P 3900 3000
+F 0 "J2" H 3927 3026 50  0000 L CNN
+F 1 "left" H 3927 2935 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 3900 3000 50  0001 C CNN
+F 3 "~" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x15_Female J3
+U 1 1 5D5DA7B3
+P 5100 3000
+F 0 "J3" H 5000 2125 50  0000 L CNN
+F 1 "right" H 4925 3925 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 5100 3000 50  0001 C CNN
+F 3 "~" H 5100 3000 50  0001 C CNN
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
+Text Label 4900 2300 2    50   ~ 0
+D0
+Text Label 4900 2400 2    50   ~ 0
+D1
+Text Label 4900 2500 2    50   ~ 0
+D2
+Text Label 4900 2600 2    50   ~ 0
+D3
+Text Label 4900 2700 2    50   ~ 0
+D4
+Text Label 4900 3000 2    50   ~ 0
+D5
+Text Label 4900 3100 2    50   ~ 0
+D6
+Text Label 4900 3200 2    50   ~ 0
+D7
+Text Label 4900 3300 2    50   ~ 0
+D8
+Text Label 4900 3400 2    50   ~ 0
+RX
+Text Label 4900 3500 2    50   ~ 0
+TX
+Text Label 3700 2300 2    50   ~ 0
+A0
+Text Label 3700 2600 2    50   ~ 0
+S3
+Text Label 3700 2700 2    50   ~ 0
+S2
+Text Label 2300 3525 0    50   ~ 0
+MOSI
+Text Label 2300 3725 0    50   ~ 0
+CS
+Text Label 2300 3625 0    50   ~ 0
+MISO
+Text Label 2300 3825 0    50   ~ 0
+CLK
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5D5DA9EE
+P 4900 2800
+F 0 "#PWR0101" H 4900 2650 50  0001 C CNN
+F 1 "+3.3V" V 4915 2928 50  0000 L CNN
+F 2 "" H 4900 2800 50  0001 C CNN
+F 3 "" H 4900 2800 50  0001 C CNN
+	1    4900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D5DAA5B
+P 4900 2900
+F 0 "#PWR0102" H 4900 2650 50  0001 C CNN
+F 1 "GND" V 4905 2772 50  0000 R CNN
+F 2 "" H 4900 2900 50  0001 C CNN
+F 3 "" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5D5DAA91
+P 4900 3700
+F 0 "#PWR0103" H 4900 3550 50  0001 C CNN
+F 1 "+3.3V" V 4915 3828 50  0000 L CNN
+F 2 "" H 4900 3700 50  0001 C CNN
+F 3 "" H 4900 3700 50  0001 C CNN
+	1    4900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D5DAA97
+P 4900 3600
+F 0 "#PWR0104" H 4900 3350 50  0001 C CNN
+F 1 "GND" V 4905 3472 50  0000 R CNN
+F 2 "" H 4900 3600 50  0001 C CNN
+F 3 "" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D5DAB83
+P 3700 2400
+F 0 "#PWR0105" H 3700 2150 50  0001 C CNN
+F 1 "GND" V 3705 2272 50  0000 R CNN
+F 2 "" H 3700 2400 50  0001 C CNN
+F 3 "" H 3700 2400 50  0001 C CNN
+	1    3700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5D5DAC01
+P 3700 3700
+F 0 "#PWR0106" H 3700 3550 50  0001 C CNN
+F 1 "+5V" V 3715 3828 50  0000 L CNN
+F 2 "" H 3700 3700 50  0001 C CNN
+F 3 "" H 3700 3700 50  0001 C CNN
+	1    3700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5D5DAC55
+P 3700 3300
+F 0 "#PWR0107" H 3700 3150 50  0001 C CNN
+F 1 "+3.3V" V 3715 3428 50  0000 L CNN
+F 2 "" H 3700 3300 50  0001 C CNN
+F 3 "" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D5DAC5B
+P 3700 3200
+F 0 "#PWR0108" H 3700 2950 50  0001 C CNN
+F 1 "GND" V 3705 3072 50  0000 R CNN
+F 2 "" H 3700 3200 50  0001 C CNN
+F 3 "" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5D5DAC89
+P 3700 3600
+F 0 "#PWR0109" H 3700 3350 50  0001 C CNN
+F 1 "GND" V 3705 3472 50  0000 R CNN
+F 2 "" H 3700 3600 50  0001 C CNN
+F 3 "" H 3700 3600 50  0001 C CNN
+	1    3700 3600
+	0    1    1    0   
+$EndComp
+Text Label 3700 3400 2    50   ~ 0
+EN
+Text Label 3700 3500 2    50   ~ 0
+RST
+Text Label 2250 3075 0    50   ~ 0
+MISO
+Text Label 2250 3175 0    50   ~ 0
+MOSI
+Text Label 2250 2875 0    50   ~ 0
+CLK
+$Comp
+L power:GND #PWR0110
+U 1 1 5D5DAF66
+P 2250 2975
+F 0 "#PWR0110" H 2250 2725 50  0001 C CNN
+F 1 "GND" V 2255 2847 50  0000 R CNN
+F 2 "" H 2250 2975 50  0001 C CNN
+F 3 "" H 2250 2975 50  0001 C CNN
+	1    2250 2975
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3700 2800
+NoConn ~ 3700 2900
+NoConn ~ 3700 3000
+NoConn ~ 3700 3100
+Text Label 2100 3525 2    50   ~ 0
+D7
+Wire Wire Line
+	2100 3525 2300 3525
+Text Label 2100 3625 2    50   ~ 0
+D6
+Wire Wire Line
+	2300 3625 2100 3625
+Text Label 2100 3725 2    50   ~ 0
+D8
+Wire Wire Line
+	2300 3725 2100 3725
+Text Label 2100 3825 2    50   ~ 0
+D5
+Wire Wire Line
+	2300 3825 2100 3825
+Text Label 5775 2450 2    50   ~ 0
+D1
+Text Label 5775 2550 2    50   ~ 0
+D2
+Text Label 5975 2450 0    50   ~ 0
+SDA
+Text Label 5975 2550 0    50   ~ 0
+SCL
+Wire Wire Line
+	5775 2450 5900 2450
+Wire Wire Line
+	5975 2550 5900 2550
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 5D5DB68B
+P 6925 2325
+F 0 "J5" H 6952 2301 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 6952 2210 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 6925 2325 50  0001 C CNN
+F 3 "~" H 6925 2325 50  0001 C CNN
+	1    6925 2325
+	1    0    0    -1  
+$EndComp
+Text Label 6725 2425 2    50   ~ 0
+SCL
+Text Label 6725 2225 2    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR0111
+U 1 1 5D5DB85A
+P 6725 2525
+F 0 "#PWR0111" H 6725 2275 50  0001 C CNN
+F 1 "GND" V 6730 2397 50  0000 R CNN
+F 2 "" H 6725 2525 50  0001 C CNN
+F 3 "" H 6725 2525 50  0001 C CNN
+	1    6725 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5D5DBA19
+P 6725 2325
+F 0 "#PWR0112" H 6725 2175 50  0001 C CNN
+F 1 "+5V" V 6740 2453 50  0000 L CNN
+F 2 "" H 6725 2325 50  0001 C CNN
+F 3 "" H 6725 2325 50  0001 C CNN
+	1    6725 2325
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3700 2500
+$Comp
+L power:+5V #PWR0113
+U 1 1 5D5DBE7F
+P 7625 3600
+F 0 "#PWR0113" H 7625 3450 50  0001 C CNN
+F 1 "+5V" V 7640 3728 50  0000 L CNN
+F 2 "" H 7625 3600 50  0001 C CNN
+F 3 "" H 7625 3600 50  0001 C CNN
+	1    7625 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5D5DBE94
+P 7625 3400
+F 0 "#PWR0114" H 7625 3250 50  0001 C CNN
+F 1 "+3.3V" V 7640 3528 50  0000 L CNN
+F 2 "" H 7625 3400 50  0001 C CNN
+F 3 "" H 7625 3400 50  0001 C CNN
+	1    7625 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 7625 3700 2    50   ~ 0
+D0
+Text Label 7625 3300 2    50   ~ 0
+D3
+Text Label 7625 3200 2    50   ~ 0
+D4
+Text Label 2250 2675 0    50   ~ 0
+S3
+Text Label 7625 2900 2    50   ~ 0
+S2
+$Comp
+L Device:R R1
+U 1 1 5D5DC528
+P 5900 2300
+F 0 "R1" H 5970 2346 50  0000 L CNN
+F 1 "10k" H 5970 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 2300 50  0001 C CNN
+F 3 "~" H 5900 2300 50  0001 C CNN
+	1    5900 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 2450
+Wire Wire Line
+	5900 2450 5975 2450
+$Comp
+L Device:R R2
+U 1 1 5D5DC5C8
+P 5900 2700
+F 0 "R2" H 5970 2746 50  0000 L CNN
+F 1 "10k" H 5970 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 2550
+Wire Wire Line
+	5900 2550 5775 2550
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5D5DC5FE
+P 5900 2850
+F 0 "#PWR0117" H 5900 2700 50  0001 C CNN
+F 1 "+3.3V" V 5915 2978 50  0000 L CNN
+F 2 "" H 5900 2850 50  0001 C CNN
+F 3 "" H 5900 2850 50  0001 C CNN
+	1    5900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 5D5DC617
+P 5900 2150
+F 0 "#PWR0118" H 5900 2000 50  0001 C CNN
+F 1 "+3.3V" V 5915 2278 50  0000 L CNN
+F 2 "" H 5900 2150 50  0001 C CNN
+F 3 "" H 5900 2150 50  0001 C CNN
+	1    5900 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5D5DB31C
+P 2050 2975
+F 0 "J1" H 1944 2450 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 1944 2541 50  0000 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 2050 2975 50  0001 C CNN
+F 3 "~" H 2050 2975 50  0001 C CNN
+	1    2050 2975
+	-1   0    0    1   
+$EndComp
+Text Label 2250 2775 0    50   ~ 0
+A0
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5D5DBA85
+P 3825 4650
+F 0 "J6" H 3853 4626 50  0000 L CNN
+F 1 "POWER" H 3853 4535 50  0000 L CNN
+F 2 "custom_lib:Wago_2060_2_SMD" H 3825 4650 50  0001 C CNN
+F 3 "~" H 3825 4650 50  0001 C CNN
+	1    3825 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5D5DBAF5
+P 3625 4650
+F 0 "#PWR0119" H 3625 4500 50  0001 C CNN
+F 1 "+5V" V 3640 4778 50  0000 L CNN
+F 2 "" H 3625 4650 50  0001 C CNN
+F 3 "" H 3625 4650 50  0001 C CNN
+	1    3625 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5D5DBB10
+P 3625 4750
+F 0 "#PWR0120" H 3625 4500 50  0001 C CNN
+F 1 "GND" V 3630 4622 50  0000 R CNN
+F 2 "" H 3625 4750 50  0001 C CNN
+F 3 "" H 3625 4750 50  0001 C CNN
+	1    3625 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5D5DCB13
+P 7625 3500
+F 0 "#PWR0115" H 7625 3250 50  0001 C CNN
+F 1 "GND" V 7630 3372 50  0000 R CNN
+F 2 "" H 7625 3500 50  0001 C CNN
+F 3 "" H 7625 3500 50  0001 C CNN
+	1    7625 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 5D5DD854
+P 7625 3100
+F 0 "#PWR0116" H 7625 2950 50  0001 C CNN
+F 1 "+3.3V" V 7640 3228 50  0000 L CNN
+F 2 "" H 7625 3100 50  0001 C CNN
+F 3 "" H 7625 3100 50  0001 C CNN
+	1    7625 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 5D5DDEA4
+P 6325 3350
+F 0 "J7" H 6353 3376 50  0000 L CNN
+F 1 "UART" H 6353 3285 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6325 3350 50  0001 C CNN
+F 3 "~" H 6325 3350 50  0001 C CNN
+	1    6325 3350
+	1    0    0    -1  
+$EndComp
+Text Label 6125 3350 2    50   ~ 0
+RX
+Text Label 6125 3450 2    50   ~ 0
+TX
+$Comp
+L power:GND #PWR0121
+U 1 1 5D5DDF5C
+P 6125 3250
+F 0 "#PWR0121" H 6125 3000 50  0001 C CNN
+F 1 "GND" V 6130 3122 50  0000 R CNN
+F 2 "" H 6125 3250 50  0001 C CNN
+F 3 "" H 6125 3250 50  0001 C CNN
+	1    6125 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x09_Female J4
+U 1 1 5D5DE4EA
+P 7825 3300
+F 0 "J4" H 7852 3326 50  0000 L CNN
+F 1 "Conn_01x09_Female" H 7852 3235 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 7825 3300 50  0001 C CNN
+F 3 "~" H 7825 3300 50  0001 C CNN
+	1    7825 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 5D5DE9AA
+P 7625 3000
+F 0 "#PWR0122" H 7625 2850 50  0001 C CNN
+F 1 "+5V" V 7640 3128 50  0000 L CNN
+F 2 "" H 7625 3000 50  0001 C CNN
+F 3 "" H 7625 3000 50  0001 C CNN
+	1    7625 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5D5DEB3E
+P 7100 2850
+F 0 "#PWR0123" H 7100 2600 50  0001 C CNN
+F 1 "GND" V 7105 2722 50  0000 R CNN
+F 2 "" H 7100 2850 50  0001 C CNN
+F 3 "" H 7100 2850 50  0001 C CNN
+	1    7100 2850
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
